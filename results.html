@@ -11,13 +11,13 @@
 
 </head>
 
-<body>
+<body onload="setCookie">
 <font face="Verdana, Arial" size="5" color="black">
 <center>
 <h1>Your Entered Information :- </h1>
 <div id="results"></div>
 
-<a href="./index.html" target="_blank"  title="Back to form?Click here">Back to Form</a>
+<a href="./index.html" target="_blank" onclick="checkCookie()" title="Back to form?Click here">Back to Form</a>
 </center>
 </font>
 <script>
@@ -27,6 +27,9 @@ resultsList.append(`${name}: ${value}`)
 resultsList.append(document.createElement("br"))
 })
 </script>
+
+<script src="js/all.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 
