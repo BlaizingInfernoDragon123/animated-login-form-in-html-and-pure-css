@@ -29,6 +29,7 @@ img.resize {
 				<input type="password" required="required" id="password" name="password" title="Enter your password">
 				<span>Password</span>
 				<i></i>
+                            <input type="checkbox" onclick="showPsw()">Show Password
 			</div>
 			<div class="links">
 				<a href="#" target="_blank">Forgot Password ?</a>
@@ -49,5 +50,15 @@ img.resize {
                </footer>
 <script src="js/all.js"></script>
 <script src="js/script.js"></script>
+<script>
+function showPsw() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
 </body>
 </html>
