@@ -179,8 +179,8 @@ top: 10px;
 input[type="checkbox"]
 {
 position: relative;
-top: 2px;
-margin: 2px 0;
+top: ;
+margin: 10px 0;
 font-size: 0.75em;
 color: #8f8f8f;
 text-decoration: beige;
